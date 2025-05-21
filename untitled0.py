@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 from sklearn.datasets import load_iris
 
 # Load model
-model = joblib.load("model.pkl")
+model = joblib.load("random_forest_model.pkl")
 
 # Load dataset
 iris = load_iris()
